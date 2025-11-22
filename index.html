@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarbieroIT - Soluções em Tecnologia</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Goodly:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">BarbieroIT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-contact" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container-fluid">
+            <div class="row align-items-center min-vh-100 g-0">
+                <div class="col-12 col-lg-5 order-2 order-lg-1">
+                    <div class="hero-image-wrapper">
+                        <img src="src/assets/woman-hero.png" alt="Profissional" class="hero-main-image img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 order-1 order-lg-2">
+                    <div class="hero-content">
+                        <h1 class="hero-title">A modernização digital que prepara seu desempenho para o futuro.</h1>
+                        <p class="hero-subtitle">Fale com um de nossos especialistas e alavanque seu desempenho</p>
+                        <div class="hero-buttons">
+                            <a href="#contato" class="btn btn-primary-custom me-lg-3 mb-2 mb-lg-0">Entre em contato <i class="fas fa-chevron-right ms-2"></i></a>
+                            <a href="#servicos" class="btn btn-secondary-custom">Consultar serviços <i class="fas fa-chevron-right ms-2"></i></a>
+                        </div>
+                        <div class="floating-circle circle-1"></div>
+                        <div class="floating-circle circle-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="empresas-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Mais de <span class="highlight">27</span> empresas aprovam</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="logos-scroll-wrapper">
+                        <div class="logos-scroll">
+                            <div class="logo-item">
+                                <img src="src/assets/empresa1.png" alt="Logo Empresa 1">
+                            </div>
+                            <div class="logo-item">
+                                <img src="src/assets/empresa2.png" alt="Logo Empresa 2">
+                            </div>
+                            <div class="logo-item">
+                                <img src="src/assets/empresa3.png" alt="Logo Empresa 3">
+                            </div>
+                            <div class="logo-item">
+                                <img src="src/assets/epresa4.png" alt="Logo Empresa 4">
+                            </div>
+                            <div class="logo-item">
+                                <img src="src/assets/empresa1.png" alt="Logo Empresa 1">
+                            </div>
+                            <div class="logo-item">
+                                <img src="src/assets/empresa2.png" alt="Logo Empresa 2">
+                            </div>
+                            <div class="logo-item">
+                                <img src="src/assets/empresa3.png" alt="Logo Empresa 3">
+                            </div>
+                            <div class="logo-item">
+                                <img src="src/assets/epresa4.png" alt="Logo Empresa 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="sobre-menu">
+                        <h2 class="mb-4">Sobre nós</h2>
+                        <ul class="sobre-list">
+                            <li class="sobre-item active" data-target="quem-somos">
+                                <span>Quem somos <i class="fas fa-chevron-right"></i></span>
+                            </li>
+                            <li class="sobre-item" data-target="missao">
+                                <span>Nossa missão <i class="fas fa-chevron-right"></i></span>
+                            </li>
+                            <li class="sobre-item" data-target="diferenciais">
+                                <span>Diferenciais <i class="fas fa-chevron-right"></i></span>
+                            </li>
+                            <li class="sobre-item" data-target="porque">
+                                <span>Por que a BarbieroIT <i class="fas fa-chevron-right"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="sobre-content">
+                        <div class="content-item active" id="quem-somos">
+                            <h3 class="mb-4">Quem somos?</h3>
+                            <p>A Barbiero IT é uma empresa especializada em serviços de tecnologia voltados para empresas que precisam de suporte confiável, infraestrutura moderna e soluções digitais eficientes.</p>
+                            <p>Trabalhamos com terceirização de TI, consultoria, gestão de ambientes, segurança da informação e suporte técnico, sempre com foco em estabilidade, performance e crescimento.</p>
+                            <p>Nossa equipe atua de forma estratégica para garantir que a tecnologia seja uma aliada do seu negócio — reduzindo problemas, aumentando produtividade e oferecendo soluções que realmente funcionam no dia a dia.</p>
+                        </div>
+                        <div class="content-item" id="missao">
+                            <h3 class="mb-4">Nossa missão</h3>
+                            <p>Transformar desafios tecnológicos em oportunidades de crescimento, fornecendo soluções inovadoras e personalizadas que impulsionam o sucesso dos nossos clientes.</p>
+                            <p>Acreditamos que a tecnologia deve ser um facilitador, não um obstáculo. Por isso, trabalhamos incansavelmente para garantir que cada cliente tenha acesso às melhores práticas e ferramentas do mercado.</p>
+                        </div>
+                        <div class="content-item" id="diferenciais">
+                            <h3 class="mb-4">Nossos Diferenciais</h3>
+                            <ul class="diferenciais-list">
+                                <li><i class="fas fa-check-circle"></i> Atendimento personalizado e humanizado</li>
+                                <li><i class="fas fa-check-circle"></i> Equipe altamente qualificada e certificada</li>
+                                <li><i class="fas fa-check-circle"></i> Soluções escaláveis para empresas de todos os portes</li>
+                                <li><i class="fas fa-check-circle"></i> Suporte 24/7 com tempo de resposta ágil</li>
+                                <li><i class="fas fa-check-circle"></i> Investimento contínuo em inovação</li>
+                            </ul>
+                        </div>
+                        <div class="content-item" id="porque">
+                            <h3 class="mb-4">Por que escolher a BarbieroIT?</h3>
+                            <p>Com anos de experiência no mercado, entendemos as necessidades específicas de cada segmento e oferecemos soluções sob medida.</p>
+                            <p>Nossa abordagem proativa identifica e resolve problemas antes que eles impactem seu negócio, garantindo máxima disponibilidade e performance.</p>
+                            <p>Além disso, mantemos um relacionamento próximo com nossos clientes, atuando como parceiros estratégicos em sua jornada de transformação digital.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos-section py-5">
+        <div class="container-fluid px-0">
+            <div class="row g-0">
+                <div class="col-12 col-lg-5 position-relative d-none d-lg-block">
+                    <div class="servicos-images">
+                        <img src="src/assets/ana2.png" alt="Profissional de TI" class="img-main">
+                        <img src="src/assets/group1.png" alt="Reunião" class="img-top">
+                        <img src="src/assets/group2.png" alt="Apresentação" class="img-bottom">
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <div class="servicos-content p-5">
+                        <h2 class="section-title mb-4">Nossos serviços</h2>
+                        <p class="section-description mb-5">
+                            Oferecemos um conjunto completo de soluções tecnológicas projetadas para garantir que sua empresa opere com eficiência, estabilidade e segurança. Atuamos desde o suporte técnico diário até a gestão avançada de infraestrutura, sempre com foco em performance e na redução de problemas que afetam o dia a dia do seu negócio.
+                            <br><br>
+                            Trabalhamos de forma estratégica e personalizada, entendendo as necessidades de cada cliente para entregar serviços que realmente fazem diferença.
+                        </p>
+
+                        <div id="servicosCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row g-4">
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Terceirização de TI completa</h4>
+                                                <p>Gestão total do ambiente de tecnologia para que sua empresa opere sem interrupções.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Suporte Técnico Especializado</h4>
+                                                <p>Atendimento rápido e eficiente para resolver problemas e manter seus sistemas funcionando.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Gestão de Infraestrutura</h4>
+                                                <p>Monitoramento, manutenção e otimização de servidores, redes e equipamentos.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row g-4">
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Segurança da Informação</h4>
+                                                <p>Proteção de dados, backup, disaster recovery e conformidade com normas de segurança.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Soluções em Cloud</h4>
+                                                <p>Migração, gestão e otimização de ambientes em nuvem AWS, Azure e Google Cloud.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Consultoria em TI</h4>
+                                                <p>Planejamento estratégico e orientação para modernização da infraestrutura tecnológica.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row g-4">
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Monitoramento 24/7</h4>
+                                                <p>Acompanhamento contínuo de sistemas e alertas proativos para prevenir problemas.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Desenvolvimento de Sistemas</h4>
+                                                <p>Criação de soluções personalizadas para automatizar processos e aumentar eficiência.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="service-card">
+                                                <div class="service-icon">
+                                                    <i class="fas fa-asterisk"></i>
+                                                </div>
+                                                <h4>Gestão de Banco de Dados</h4>
+                                                <p>Administração, otimização e backup de bases de dados críticas para o negócio.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-controls-custom">
+                                <button class="carousel-arrow carousel-arrow-prev" type="button" data-bs-target="#servicosCarousel" data-bs-slide="prev">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <button class="carousel-arrow carousel-arrow-next" type="button" data-bs-target="#servicosCarousel" data-bs-slide="next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="relatos-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">O que nossos clientes dizem</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="relato-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="relato-texto">"A BarbieroIT transformou completamente nossa infraestrutura de TI. O suporte é rápido e eficiente, sempre prontos para resolver qualquer problema."</p>
+                        <div class="relato-autor">
+                            <div class="autor-info">
+                                <h5>Carlos Mendes</h5>
+                                <p>CEO - TechStart Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="relato-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="relato-texto">"Desde que contratamos a BarbieroIT, nossa empresa não teve mais problemas críticos. O monitoramento 24/7 garante nossa tranquilidade."</p>
+                        <div class="relato-autor">
+                            <div class="autor-info">
+                                <h5>Marina Silva</h5>
+                                <p>Diretora de Operações - Comercial LMN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="relato-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="relato-texto">"Profissionais extremamente competentes e atenciosos. A consultoria em cloud nos ajudou a reduzir custos em 40% e aumentar a performance."</p>
+                        <div class="relato-autor">
+                            <div class="autor-info">
+                                <h5>Roberto Alves</h5>
+                                <p>CTO - Innovare Tech</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="equipe-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Nossa equipe</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="src/assets/anab.png" alt="Ana Barbiero">
+                        </div>
+                        <h5>Ana Barbiero</h5>
+                        <p class="team-role">CEO & Founder</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="src/assets/felipe.png" alt="Felipe Clink">
+                        </div>
+                        <h5>Felipe Clink</h5>
+                        <p class="team-role">DevOps Engineer</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="src/assets/lara.png" alt="Lara Caroline">
+                        </div>
+                        <h5>Lara Caroline</h5>
+                        <p class="team-role">Tech Lead</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="src/assets/isadora.png" alt="Isadora Sodré">
+                        </div>
+                        <h5>Isadora Sodré</h5>
+                        <p class="team-role">Support Specialist</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="src/assets/joao.png" alt="João Vitor">
+                        </div>
+                        <h5>João Vitor</h5>
+                        <p class="team-role">Systems Admin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contato-info">
+                        <h2 class="mb-4">Entre em contato</h2>
+                        <h4 class="mb-4">Fale com um de nossos especialistas</h4>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>Sacsuporte@barbieroit.com.br</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>(65)99901-7888</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Cuiabá, MT - Brasil</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="nome" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="nome" name="nome" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="sobrenome" class="form-label">Sobrenome</label>
+                                    <input type="text" class="form-control" id="sobrenome" name="sobrenome" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="telefone" class="form-label">Telefone</label>
+                                    <input type="tel" class="form-control" id="telefone" name="telefone" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="assunto" class="form-label">Assunto</label>
+                                    <textarea class="form-control" id="assunto" name="assunto" rows="5" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-submit w-100">Enviar solicitação</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="formMessage" class="form-message mt-3" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 BarbieroIT. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script src="email-config.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
